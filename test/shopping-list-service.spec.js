@@ -38,7 +38,7 @@ describe(`Shopping List Service Object`, function() {
         })
     })
 
-    beforeEach(() => db('shopping_list_test').truncate())
+    before(() => db('shopping_list_test').truncate())
 
     beforeEach(() => {
         return db
@@ -46,9 +46,7 @@ describe(`Shopping List Service Object`, function() {
             .insert(testTable)
     })
 
-    afterEach(() => {
-        db('shopping_list_test').truncate()
-    })
+    afterEach(() => db('shopping_list_test').truncate())
 
     after(() => db.destroy())
 
