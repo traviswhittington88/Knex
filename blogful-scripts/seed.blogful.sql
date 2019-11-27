@@ -1,0 +1,23 @@
+INSERT INTO articles (title, date_published, content)
+  VALUES 
+    ('My first article', now() - '30 days'::INTERVAL, 'Tis a fun lil article!'),
+    ('How to jump rope', now() - '29 days'::INTERVAL, 'You don''t'),
+    ('10 ways to chew gum', now() - '28 days'::INTERVAL, 'Standing up, sitting down, in a chair, all alone, upside down, with a frown, 
+     in a gown, by the creek, speaking greek, in your cheek'),
+    ('My adventures into programming', now() - '27 days'::INTERVAL, 'Fun Fun Fun'),
+    ('What books to read to your kids', now() - '26 days'::INTERVAL, 'Harry Potter'),
+    ('Best vactation spots', now() - '25 days'::INTERVAL, 'Anywhere but here'),
+    ('The fastest horse in town', now() - '24 days'::INTERVAL, 'Not me'),
+    ('The best rock songs of all time', now() - '23 days'::INTERVAL, 'Too many to count'),
+    ('Waiting on the world to change', now() -'22 days'::INTERVAL, 'You will probably be waiting a while'),
+    ('Cynicism for the average adult male', now() - '21 days'::INTERVAL, 'Good luck...'),
+    ('Best mob movies of all time', now() - '20 days'::INTERVAL, 'The Irishman, Goodfellas, The Godfather pt 2, The Godfather pt 1, The Gangs of New York, Any Scorcese mob movie'),
+    ('How to think of 20 article titles', now() - '19 days'::INTERVAL, 'You ramble out conscious streams of thought without thinking'),
+    ('The best burger recipe of all time', now() - '18 days'::INTERVAL, 'I can''t say it''s a secret... duuuuuh'),
+    ('My favorite books', now() - '17 days'::INTERVAL, 'The Sirens of Titan, A Farewell to Arms, Moby Dick, Huck Finn, The Trial, Hegemony or Surival'),
+    ('Last flight to nowhere', now() - '16 days'::INTERVAL, 'When does this end..'),
+    ('How early is too early to wake up', now() - '15 days'::INTERVAL, 'Any time before noon'),
+    ('Tips on being a dad', now() - '14 days'::INTERVAL, 'Lower your expecations'),
+    ('Two more articles to go!', now() - '7 days'::INTERVAL, 'AAAAAaaaaalmost there'),
+    ('Last article', now(), 'woo hoo!!!!!'),
+    ('That wasn''t last article', now(), 'Now woo hoo!');
